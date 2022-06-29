@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  font-weight: bolder;
+}
+
+.navbar .nav-item a {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  padding: 20px;
+}
+
+#welcome {
+  background-color: #00798a;
+}
+
+.welcome-text .welcome-wrapper {
+  padding: 150px 0px;
+  padding-bottom: 200px;
+}
+
+.welcome-text .welcome-wrapper h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.welcome-text .welcome-wrapper h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: white;
+}
+
+.welcome-text .welcome-wrapper p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.welcome-text .welcome-wrapper a {
+  background-color: #fc4065;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 9px 35px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.welcome-text .welcome-wrapper a:hover {
+  background-color: #a03624;
+}
+
+#our-services {
+  background-color: #ebebeb;
+}
+
+.ou-header {
+  padding: 100px 0px;
+}
+
+.ou-header .os-title {
+  font-size: 40px;
+  color: #007993;
+  margin-bottom: 40px;
+}
+
+.ou-header .ou-desc .ou-desc-title {
+  font-size: 25px;
+}
+
+.ou-header .ou-desc .ou-desc-sum {
+  color: #443c33;
+}
+
+.ou-cards {
+  padding-bottom: 100px;
+}
+
+.ou-card-item {
+  padding: 20px 0px;
+}
+
+.ou-card-item .ou-card-item-wrapper {
+  padding: 20px 70px;
+  background-color: #00798a;
+  margin: 0px 15px;
+}
+
+.ou-card-item .ou-card-item-wrapper .ou-card-icon {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.ou-card-item .ou-card-item-wrapper .ou-card-title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.ou-card-item .ou-card-item-wrapper .ou-card-desc {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.ou-summary .ou-summary-title {
+  font-size: 30px;
+  color: #443c33;
+}
+
+.ou-summary .ou-summary-desc {
+  color: #443c33;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+#featured {
+  background-color: #00798a;
+}
+
+.feat-ws {
+  padding: 20px 0px;
+  color: white;
+  text-align: center;
+}
+
+.feat-ws .feat-title {
+  font-size: 60px;
+}
+
+.feat-ws .feat-desc {
+  font-size: 25px;
+}
+
+#our-plans {
+  background-color: #ebebeb;
+}
+
+.op-header {
+  padding: 100px 0px;
+}
+
+.op-header .op-title {
+  font-size: 40px;
+  color: #007993;
+  margin-bottom: 40px;
+}
+
+.op-header .op-desc .op-desc-header {
+  font-size: 25px;
+}
+
+.op-header .op-desc .op-desc-sum {
+  color: #443c33;
+}
+
+.op-cards {
+  padding-bottom: 100px;
+}
+
+.op-card-item {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.op-card-item .op-card-wrapper {
+  margin: 0px 15px;
+}
+
+.op-card-item .op-card-title p {
+  background-color: black;
+  color: white;
+  padding: 10px 0px;
+  margin: 0;
+}
+
+.op-card-item .op-card-content {
+  background-color: #d8d8d8;
+}
+
+.op-card-item .op-card-content p {
+  padding: 20px 0px;
+  margin: 0;
+  color: #858585;
+  font-size: 20px;
+}
+
+.op-card-item .op-card-content .op-price {
+  background-color: #1f8a63;
+  color: white;
+  font-size: 30px;
+}
+
+.op-card-item .op-card-content .op-read-more {
+  background-color: #d9534f;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.op-card-item .op-card-content .op-read-more a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.op-card-item .op-card-content .op-read-more:hover {
+  background-color: #b64441;
+}
+
+#stats {
+  background-color: #00798a;
+}
+
+.stats-ws {
+  padding: 20px 0px;
+  color: white;
+  text-align: center;
+}
+
+.stats-ws .stats-title {
+  font-size: 60px;
+}
+
+.stats-ws .stats-desc {
+  font-size: 25px;
+}
+
+#contact-us {
+  background-color: #ebebeb;
+}
+
+.cu-header {
+  padding: 100px 0px;
+}
+
+.cu-header .cu-header-title {
+  font-size: 30px;
+  color: #1f8a63;
+}
+
+.cu-header {
+  padding: 100px 0px;
+}
+
+.cu-header .cu-title {
+  font-size: 40px;
+  color: #007993;
+  margin-bottom: 40px;
+}
+
+.cu-header .cu-desc .cu-desc-header {
+  font-size: 25px;
+}
+
+.cu-header .cu-desc .cu-desc-sum {
+  color: #443c33;
+}
+
+.cu-content {
+  padding-bottom: 100px;
+}
+
+.form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+}
+
+.form-group {
+  width: 45%;
+}
+
+.form-group textarea {
+  width: 95%;
+  height: 100px;
+  border: 1px solid #cfcfcf;
+}
+
+.form-group input {
+  width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+  .form-row {
+    display: block;
+  }
+  .form-row input {
+    width: 100%;
+  }
+  .form-group {
+    margin: 0 !important;
+  }
+  .form-group textarea {
+    width: 100%;
+  }
+  .form-group input {
+    width: 100%;
+  }
+}
+
+.info p {
+  padding: 30px 0px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.info .bold {
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+}
+
+.licenses {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.licenses p {
+  color: white;
+  text-align: end;
+  width: 90%;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
